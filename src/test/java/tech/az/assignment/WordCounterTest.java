@@ -42,7 +42,7 @@ public class WordCounterTest {
     }
 
     @Test
-    public void countsFromDifferentFiles() throws IOException {
+    public void countWordsFromDifferentFiles() throws IOException {
         String firstFilePath = "src/main/resources/one.txt";
         String secondFilePath = "src/main/resources/two.txt";
         String encoding = "UTF-8";
@@ -54,7 +54,7 @@ public class WordCounterTest {
     }
 
     @Test
-    public void countsFromDifferentFilesOneFileIsOnLineFile() throws IOException {
+    public void countWordsFromDifferentFilesOneFileIsOnLineFile() throws IOException {
         String firstFilePath = "src/main/resources/two.txt";
         String secondFilePath = "src/main/resources/three.txt";
         String encoding = "UTF-8";
@@ -66,7 +66,7 @@ public class WordCounterTest {
     }
 
     @Test
-    public void countsFromInvalidEncodingFormat() {
+    public void countWordsFromInvalidEncodingFormat() {
         String firstFilePath = "src/main/resources/two.txt";
         String secondFilePath = "src/main/resources/three.txt";
         String encoding = "ASCII";
@@ -76,7 +76,7 @@ public class WordCounterTest {
     }
 
     @Test
-    public void countsFromInvalidArguments() {
+    public void countWordsFromInvalidArguments() {
         String firstFilePath = "src/main/resources/two.txt";
         String secondFilePath = "";
         String encoding = "UTF-8";
