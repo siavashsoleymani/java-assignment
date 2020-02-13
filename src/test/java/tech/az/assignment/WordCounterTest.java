@@ -54,7 +54,7 @@ public class WordCounterTest {
     }
 
     @Test
-    public void countWordsFromDifferentFilesOneFileIsOnLineFile() throws IOException {
+    public void countWordsFromDifferentFilesOneFileIsOneLineFile() throws IOException {
         String firstFilePath = "src/main/resources/two.txt";
         String secondFilePath = "src/main/resources/three.txt";
         String encoding = "UTF-8";
